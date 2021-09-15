@@ -1,7 +1,0 @@
-id Bag report
-summary
-Step to reproduce
-expected result
-actual result
-attachments
-1111111111
