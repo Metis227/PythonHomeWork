@@ -1,0 +1,97 @@
+1)
+a = "String"
+b = "String 2"
+
+2)
+per_1 = 15
+per_2 = 25
+per_3 = 35
+per_4 = 45
+
+3)
+fl_1 = 1.1
+fl_2 = 2.1
+fl_3 = 3.1
+
+4)
+a = 10
+b = 20
+c = 30
+d = 40
+
+t = True
+f = False
+
+print('1',a<b,'2',a>b,'3',d<a,'4',c>d,'5',a<d,'6',c!=d,'7',d==a,'8',a<=d,'9',d<c,'10',b==d,'11',d==d,'12',c!=c,'13',a>c,'14',d!=a,'15',b>a)
+
+5)
+a = 10.10
+b = 20.2
+c = 30.3
+d = 40.5
+
+t = True
+f = False
+
+print('1',a==a,'2',a!=b,'3',b>d,'4',b<a,'5',c<=d,'6',d<=a,'7',c==a,'8',d!=a,'9',d==c)
+
+6)
+t = True
+f = False
+
+age = 31
+weight = 91
+height = 185
+pos = 'qa'
+#
+if age >= 25 and height >=170:
+    print(t)
+if age >= 25 or pos == 'qa':
+    print(t)
+if not pos != 'qa':
+    print(t)
+if age >=25 and weight >= 80 and height >= 185:
+    print(t)
+if age <=35 and weight <= 100 and height <= 190:
+    print(f)
+if not age != 30:
+    print("2",t)
+else:
+    age >25
+    print("3",t)
+
+7)
+print('Введите число от 1 до 50')
+a = int(input('число: '))
+if a == 30:
+    print('Ваше число равно 30')
+elif a < 30:
+    print('Ваше число меньше 30')
+elif a > 30:
+    print('Ваше число больше 30')
+
+8)
+import random
+a = int(random.randint(1, 100))
+print('Введите число от 1 до 100')
+b = int(input('Ваше число: '))
+if b == a:
+    print('Вы угадали рандомное число')
+elif b < a:
+    print('Ваше число меньше рандомного')
+elif b > a:
+    print('Ваше число больше рандомного')
+
+9)
+import random
+a = int(random.randint(1, 100))
+c = int(random.randint(1, 100))
+print('Введите число от 1 до 100')
+b = int(input('Ваше число: '))
+if b == a or b == c:
+    print('Вы угадали рандомное число')
+elif b < a or b < c:
+    print('Ваше число меньше рандомного')
+elif b > a or b > c:
+    print('Ваше число больше рандомного')
+print(a, c)
